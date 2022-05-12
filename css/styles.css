@@ -185,6 +185,8 @@ body {
 
 /* ======== MAIN PORTFOLIO========*/
 
+/* ======== MENU BTN========*/
+
 .menu-btn-active {
   font-weight: 500;
   font-size: 16px;
@@ -214,6 +216,9 @@ body {
     color:#2196f3; 
 }
 
+/* ======== /MENU BTN========*/
+
+/* ======== OUR WORK ========*/
 .project-name {
 font-weight: 700;
 font-size: 18px;
@@ -228,6 +233,10 @@ line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575;
 }
+
+/* ======== /OUR WORK ========*/
+
+/* ======== COMPONENTS ========*/
 
 .nav-mail-portfolio {
     color: #757575;;
