@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #212121;
 }
 .link {
@@ -12,7 +12,7 @@ body {
 }
 /* ======== HEADER MAIN========*/
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -21,7 +21,7 @@ body {
 }
 
 .logo-studio {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -148,7 +148,7 @@ body {
 }
 
 .footer-logo-studio {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -161,7 +161,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
   color: #ffffff;
 }
 
@@ -184,6 +183,52 @@ body {
 }
 /* ======== /FOOTER ========*/
 
-/* ======== HEADER PORTFOLIO========*/
+/* ======== MAIN PORTFOLIO========*/
 
+.menu-btn-active {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: #ffffff;
+}
 
+.menu-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.menu-btn:hover,
+.menu-btn:focus {
+    color:#2196f3;
+}
+
+.menu-btn-active:hover,
+.menu-btn-active:focus {
+    color:#2196f3; 
+}
+
+.project-name {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.project-type {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.nav-mail-portfolio {
+    color: #757575;;
+}
