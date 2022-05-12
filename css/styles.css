@@ -1,9 +1,189 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+.link {
+  color: inherit;
+  text-decoration: none;
+}
 
+.list {
+  list-style: none;
+}
+/* ======== HEADER MAIN========*/
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
 
+.logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
 
-/*
- #2196F3 цвет ссылок синий
- #FFFFFF цвет текста черный
- #212121 цвет текста черный
- background: #757575; черный
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+.nav-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+
+.nav-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+/* ======== /HEADER ========*/
+
+/* ======== HERO ========*/
+
+.hero {
+  background: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+/* ======== /HERO ========*/
+/* ======== COMPONENTS ========*/
+.common-headings {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* ======== /COMPONENTS ========*/
+/* ======== ABOUT ========*/
+
+.about-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.about-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/* ======== /ABOUT ========*/
+
+/* ======== TEAM ========*/
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /*text-align: center;*/
+  letter-spacing: 0.03em;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  /*text-align: center;*/
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/* ======== /TEAM ========*/
+
+/* ======== FOOTER ========*/
+
+.footer {
+  background: #2f303a;
+}
+
+.footer-logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-addres {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.footer-mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-phone {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+/* ======== /FOOTER ========*/
+
+/* ======== HEADER PORTFOLIO========*/
+
 
