@@ -1,3 +1,9 @@
+:root {
+  --accent-color: #2196f3;
+  --main-white: #ffffff;
+  --accent-black: #757575;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
@@ -17,7 +23,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .navigation .accent {
@@ -37,12 +43,12 @@ body {
 }
 
 .studio-link {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .nav-mail {
@@ -51,7 +57,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--accent-black);
 }
 
 .nav-phone {
@@ -60,7 +66,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--accent-black);
 }
 
 /* ======== /HEADER ========*/
@@ -78,7 +84,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--main-white);
 }
 
 .hero-btn {
@@ -90,8 +96,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--accent-color);
+  color: var(--main-white);
 }
 
 .hero-btn:hover,
@@ -104,7 +110,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   background: #188ce8;
-  color: #ffffff;
+  color: var(--main-white);
 }
 
 /* ======== /HERO ========*/
@@ -135,7 +141,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--accent-black);
 }
 
 /* ======== /ABOUT ========*/
@@ -161,7 +167,7 @@ body {
   /*text-align: center;*/
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--accent-black);
 }
 
 /* ======== /TEAM ========*/
@@ -178,7 +184,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--main-white);
 }
 
 .footer-addres {
@@ -188,7 +194,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--main-white);
 }
 
 .footer-mail {
@@ -225,7 +231,6 @@ body {
   letter-spacing: 0.03em;
   cursor: pointer;
   background: #f5f4fa;
-  color: #212121;
 }
 
 .filter-btn:hover,
@@ -237,13 +242,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--accent-color);
+  color: var(--main-white);
 }
 
 .filter-btn-active {
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--accent-color);
+  color: var(--main-white);
 }
 
 /* ======== /MENU BTN========*/
@@ -261,19 +266,19 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--accent-black);
 }
 
 .portfolio-link {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .project-type:hover,
 .project-type:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 
 /* ======== /OUR WORK ========*/
 
-/* ======== COMPONENTS ========*/
+
