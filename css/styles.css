@@ -36,6 +36,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.studio-link {
+  color: #2196f3;
+}
+
 .link:hover,
 .link:focus {
   color: #2196f3;
@@ -47,7 +51,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #2196f3;
+  color: #757575;
 }
 
 .nav-phone {
@@ -55,6 +59,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
   color: #757575;
 }
 
@@ -85,10 +90,25 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: #188ce8;
   color: #ffffff;
 }
 
 /* ======== /HERO ========*/
+
 /* ======== COMPONENTS ========*/
 .common-headings {
   font-weight: 700;
@@ -98,6 +118,7 @@ body {
   letter-spacing: 0.03em;
 }
 /* ======== /COMPONENTS ========*/
+
 /* ======== ABOUT ========*/
 
 .about-title {
@@ -121,6 +142,10 @@ body {
 
 /* ======== TEAM ========*/
 
+.team {
+  background: #f5f4fa;
+}
+
 .team-title {
   font-weight: 500;
   font-size: 16px;
@@ -132,7 +157,7 @@ body {
 .subtitle {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.18;
+  line-height: 1.19x;
   /*text-align: center;*/
   letter-spacing: 0.03em;
 
@@ -157,14 +182,17 @@ body {
 }
 
 .footer-addres {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: #ffffff;
 }
 
 .footer-mail {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -174,6 +202,7 @@ body {
 }
 
 .footer-phone {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -187,7 +216,7 @@ body {
 
 /* ======== MENU BTN========*/
 
-.menu-btn-active {
+.filter-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -195,51 +224,56 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  background: #f5f4fa;
+  color: #212121;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  background: #2196f3;
   color: #ffffff;
 }
 
-.menu-btn {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  cursor: pointer;
-}
-
-.menu-btn:hover,
-.menu-btn:focus {
-    color:#2196f3;
-}
-
-.menu-btn-active:hover,
-.menu-btn-active:focus {
-    color:#2196f3; 
+.filter-btn-active {
+  background: #2196f3;
+  color: #ffffff;
 }
 
 /* ======== /MENU BTN========*/
 
 /* ======== OUR WORK ========*/
 .project-name {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .project-type {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
+
+.portfolio-link {
+  color: #2196f3;
+}
+
+/* .project-type:hover,
+.project-type:focus {
+  color: #2196f3;
+}
+*/
 
 /* ======== /OUR WORK ========*/
 
 /* ======== COMPONENTS ========*/
-
-.nav-mail-portfolio {
-    color: #757575;;
-}
